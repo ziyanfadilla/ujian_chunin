@@ -47,18 +47,29 @@
         // console.log(nama); 
 
 //slice = menampilkan string dari karakter ke berapa sampai keberapa
-var angka = [1,2,3,4,"a","b","c","d"];
+// var angka = [1,2,3,4,"a","b","c","d"];
   
-//slice dari index ke 2 sampai 5
-var arr2 = angka.slice(2,5)
-console.log(arr2.toString()); 
+// //slice dari index ke 2 sampai 5
+// var arr2 = angka.slice(2,5)
+// console.log(arr2.toString()); 
   
-//slice dari index ke 4 sampai akhir array
-var arr3 = angka.slice(4)
-console.log(arr3.toString());         
+// //slice dari index ke 4 sampai akhir array
+// var arr3 = angka.slice(4)
+// console.log(arr3.toString());         
   
-//slice dari index ke 5 dari akhir array sampai
-//index ke 2 dari akhir array
-var arr5 = angka.slice(-5,-2)
-console.log(arr5.toString());
+// //slice dari index ke 5 dari akhir array sampai
+// //index ke 2 dari akhir array
+// var arr5 = angka.slice(-5,-2)
+// console.log(arr5.toString());
 
+// push = menambah data dibelakang
+let hewan = ["ayam", "badak","kancil","kambing","sapi"];
+// hewan.push("kancil","kambing","sapi");
+
+//length= panjang array
+// console.log(hewan.length);
+
+//shif/unshif
+
+//shif = menghapus index dibagian awal
+// hewan.shift();

@@ -1,4 +1,4 @@
-function kebalik(isi) {
+function pembalik(isi) {
 	var kalimat = isi;
 	var hasil = '';
    for (let i = isi.length - 1; i >= 0; i--) {
@@ -7,7 +7,7 @@ function kebalik(isi) {
 	
 	return hasil;
    }
-console.log(kebalik('plugin cinta saya'));
+console.log(pembalik('plugin cinta saya'));
 
 
 
