@@ -1,13 +1,14 @@
 /* Buat program yang menghitung rata-rata UN beserta gradenya, 
 dengan mengisi 4 nilai yakni Bahasa indonesia,Bahasa Inggris Matematika dan IPA, yang di dalam program 
 tersebut memiliki validasi yaitu semua nilai tersebut harus diisi dan juga untuk
-grade memiliki kondisi dengan ketentuan sebagai berikut: 90 - 100 = A,
+grade memiliki kondisi dengan ketentuan sebagai berikut: 
+90 - 100 = A,
  80 - 89 = B, 
  70 - 79 = C, 
  60 - 69 = D, 
  0 - 59 = E. */
 
-function un (a, b, c, d){
+function ujian (a, b, c, d){
     let nilai;
     nilai = a + b + c + d;
     mean = nilai/4;
@@ -20,13 +21,15 @@ function un (a, b, c, d){
     } else if (mean >= 70 && mean >=79){
       console.log(`nilai rata + rata : ${mean}`);
       console.log('C')
-    } else {
+    } else if(mean >= 60 && mean >= 69 ) {
+      console.log(`nilai rata + rata : ${mean}`);
+      console.log('D')
+    }else{   
      console.log(`nilai rata + rata : ${mean}`);
-      console.log('E');
+     console.log('E')
     }
-  
   }
   
-  un(90,100,98,76,90);
+  ujian(90,100,98,76,90);
   
   
